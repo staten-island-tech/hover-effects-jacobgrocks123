@@ -1,0 +1,28 @@
+.flyers-parent {
+    margin: 0 auto;
+    width: 65rem;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+    .flyers {
+    height: 20rem;
+    outline-offset: 0;
+    transition: all 0.3s;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    }
+
+    .flyers:hover { 
+      padding: 10rem;  
+      overflow: hidden;
+      opacity: 50%; 
+      transform: rotate(360deg);
+
+      filter: grayscale(50%);    
+}

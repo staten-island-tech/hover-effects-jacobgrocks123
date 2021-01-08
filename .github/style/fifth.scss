@@ -1,0 +1,27 @@
+.wild-parent {
+    margin: 0 auto;
+    height: 40rem;
+    display: flex;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+	padding: 4rem;
+  }
+
+
+.wild:hover {
+	border: solid;
+	background: #3a7999;
+	color: #f2f2f2;
+	padding: 1rem;
+	border-radius: 5rem;
+	border-width: thick;
+	box-sizing: border-box; 
+	transition: all .2s ease;
+	font-size: 4rem;
+}
+
+.wild:hover:before {
+	width: 100%;
+	height: 100%;
+}

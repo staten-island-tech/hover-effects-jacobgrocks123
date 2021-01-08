@@ -1,0 +1,31 @@
+@import "_Variables";
+@import "./_animation.scss"; 
+@import "./first.scss";
+@import "./second.scss"; 
+@import "./third.scss";  
+@import "./fourth.scss";  
+@import "./fifth.scss"; 
+
+html {
+    font-size: 62.5%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: padding;
+  }
+
+
+body {
+    background-color: color(background);
+
+}
+
+
+
+body {
+display: flex;
+text-align: center;
+justify-content: center;
+position: relative;
+top: 5rem;
+align-items: center;
+}

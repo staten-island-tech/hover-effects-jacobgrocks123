@@ -1,0 +1,29 @@
+.text1-box {
+    margin: 0 auto;
+    width: 45rem;
+    height: 15rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: color(primary);
+}
+
+.text1 {
+  color: color(secondary);
+  text-align: center;
+  align-self: center;
+  font-size: 3rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  flex-wrap: wrap;
+  max-width: 50rem;
+  margin: 2rem;
+}
+
+.text1-box {
+        opacity:0.3;
+
+}
+
+.text1-box:hover {
+        opacity:0.8;
+}

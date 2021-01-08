@@ -1,0 +1,51 @@
+.hockey-parent {
+    margin: 0 auto;
+    width: 65rem;
+    height: 45rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    }
+
+    .hockey-gallery {
+    position: relative;
+    margin: 2rem;
+    }
+
+    .hockey {
+    height: 20rem;
+    position: absolute;
+    outline-offset: .5rem;
+    transition: all 0.3s;
+    }
+
+    .rangers {
+    top: 12rem;
+    left: -1rem;
+    z-index: 2;
+        }
+    
+        .flyers {
+    top: 2rem;
+    right: -2rem;
+    z-index: 3;
+        } 
+    
+        .bruins {
+    top: -4rem;
+    left: -2rem;
+    z-index: 1;
+        }
+    
+        .hockey:hover {
+    transform: scale(1.3);
+    outline: 1rem solid color(primary);
+    z-index: 2;
+    
+        }
+    
+        .hockey-gallery:hover .hockey:not(:hover) {
+    transform: scale(0.8);
+    opacity: 0.5;
+    
+        }
